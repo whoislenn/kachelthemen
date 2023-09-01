@@ -25,7 +25,7 @@ import Main from "./pages/Main"
     return (
 
       
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/teppich" element={<Teppich />} />
