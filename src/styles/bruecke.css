@@ -67,9 +67,15 @@
     display: flex;
     flex-direction: column;
     font-family: 'Times New Roman', Times, serif;
-    margin: 1vw;
+    margin: 5vw;
     padding-bottom: 20px;
     
+}
+
+.imageAreaBruecke img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain; /* This will scale the image to fit its container */
 }
 
 /* Media query for screens smaller than a certain width (e.g., mobile) */
