@@ -49,6 +49,19 @@
     grid-template-rows: repeat(6, 1fr);
     height: 100%;
     }
+
+    .square {
+      background-color: white;
+      border: 2px solid black;
+      transition: transform 0.15s ease, width 0.15s ease, z-index 0.15s ease; /* Shorter transition duration */
+      position: relative; /* Add relative positioning */
+      z-index: 1; /* Initial z-index value for all squares */
+    }
+
+    .square:hover {
+      transform: scale(1.2);
+      z-index: 2; /* Bring the hovered square to the foreground */
+    }
     
     .square-1 { 
         grid-area: 1 / 1 / 3 / 4; 
@@ -62,6 +75,7 @@
       .square {
         text-decoration: none; /* Remove underline */
         color: initial; /* Use default text color */
+        
       }
 
       .square:visited {
@@ -79,6 +93,7 @@
 
     .square-1:hover {
       transform: scale(1.2);
+      
     }
 
     .square-2 { 
