@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kachelthemen/static/css/main.20848583.css",
+    "main.css": "/kachelthemen/static/css/main.2e55a83e.css",
     "main.js": "/kachelthemen/static/js/main.6e14fab7.js",
     "static/js/787.e31c8299.chunk.js": "/kachelthemen/static/js/787.e31c8299.chunk.js",
     "static/media/uni.png": "/kachelthemen/static/media/uni.a2c8c50149dc9fe70b02.png",
     "static/media/bruecke.png": "/kachelthemen/static/media/bruecke.01b68595dc05e2b3770c.png",
     "static/media/Milchella-Regular.ttf": "/kachelthemen/static/media/Milchella-Regular.d2665151b0d9f53707d7.ttf",
     "index.html": "/kachelthemen/index.html",
-    "main.20848583.css.map": "/kachelthemen/static/css/main.20848583.css.map",
+    "main.2e55a83e.css.map": "/kachelthemen/static/css/main.2e55a83e.css.map",
     "main.6e14fab7.js.map": "/kachelthemen/static/js/main.6e14fab7.js.map",
     "787.e31c8299.chunk.js.map": "/kachelthemen/static/js/787.e31c8299.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20848583.css",
+    "static/css/main.2e55a83e.css",
     "static/js/main.6e14fab7.js"
   ]
 }
