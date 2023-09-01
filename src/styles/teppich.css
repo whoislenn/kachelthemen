@@ -1,0 +1,13 @@
+.teppich-container {
+    
+    text-align: center;
+    height: 100vh; /* Use viewport height to ensure the container takes the whole viewport height */
+    width: 100%;
+    background-color: white;
+    overflow: none;
+}
+
+.Teppich {
+    /* Add styling for the inner content if needed */
+    overflow: none;
+}

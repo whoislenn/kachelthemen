@@ -1,0 +1,13 @@
+.buch-container {
+    
+    text-align: center;
+    height: 100vh; /* Use viewport height to ensure the container takes the whole viewport height */
+    width: 100%;
+    background-color: #f1e8e6;
+    overflow: none;
+}
+
+.Buch {
+    /* Add styling for the inner content if needed */
+    overflow: none;
+}

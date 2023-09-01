@@ -1,38 +1,151 @@
+@font-face {
+  font-family: 'Milchella';
+  src: url('fonts/Milchella-Regular.ttf');
+}
+
 .App {
   text-align: center;
+  background-color: black; /* Add this line */
+  
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Uni {
+  background-color: #ab3d39;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.titlePage {
+  height: 100vh; /* Set the height of titlePage to cover the whole viewport */
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+}
+
+.header {
+    color: white;
+    text-align: center;
+    margin-top: 40vh;
+}
+
+.title {
+  font-family: Milchella;
+  font-size: 25vw;
+  margin: 0;
+  font-weight: 100;
   color: white;
+  top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Socials */
+.socials {
+    
+    height: 100vh;
+}
+.social-box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 100%;
+    }
+    
+    .square-1 { 
+        grid-area: 1 / 1 / 3 / 4; 
+        background-color: white;
+        border: 2px solid black;
+        transition: transform 0.3s ease, width 0.3s ease; /* Add transitions */
+
+    }
+
+          /* Remove underline and override visited and active link styles */
+      .square {
+        text-decoration: none; /* Remove underline */
+        color: initial; /* Use default text color */
+      }
+
+      .square:visited {
+        color: initial; /* Use default text color for visited link */
+      }
+
+      .square:active {
+        color: initial; /* Use default text color for active link */
+      }
+
+      /* Add any additional styling you want for the link */
+
+
+
+
+    .square-1:hover {
+      transform: scale(1.2);
+    }
+
+    .square-2 { 
+        grid-area: 3 / 1 / 6 / 3; 
+        background-color: #ab3d39;
+        border: 2px solid black;
+        transition: transform 0.3s ease, width 0.3s ease; /* Add transitions */
+    }
+
+    .square-2:hover {
+        transform: scale(1.2); /* Enlarge hovered item */
+    }
+
+    .square-3 { 
+        grid-area: 1 / 4 / 4 / 6; 
+        background-color: #f1e8e6;
+        border: 2px solid black;
+        transition: transform 0.3s ease, width 0.3s ease; /* Add transitions */
+    }
+
+    .square-3:hover {
+        transform: scale(1.2); /* Enlarge hovered item */
+    }
+
+    .square-4 { 
+        grid-area: 4 / 3 / 6 / 6; 
+        background-color: #edd2cb;
+        border: 2px solid black;
+        transition: transform 0.3s ease, width 0.3s ease; /* Add transitions */
+    }
+
+    .square-4:hover {
+        transform: scale(1.2); /* Enlarge hovered item */
+    }
+
+    .square-5 { 
+        grid-area: 3 / 3 / 4 / 4; 
+        background-color: #f55951;
+        border: 2px solid black;
+        transition: transform 0.3s ease, width 0.3s ease; /* Add transitions */
+    }
+
+    .square-5:hover {
+        transform: scale(1.2); /* Enlarge hovered item */
+    }
+
+
+    .square-6 { 
+      grid-area: 6 / 4 / 6 / 1; 
+      background-color: #543c52;
+      border: 2px solid black;
+      transition: transform 0.3s ease, width 0.3s ease; /* Add transitions */
+  }
+
+  .square-6:hover {
+      transform: scale(1.2); /* Enlarge hovered item */
+  }
+
+  .square-7 { 
+    grid-area: 6 / 6 / 6 / 4; 
+    background-color: #361d32;
+    border: 2px solid black;
+    transition: transform 0.3s ease, width 0.3s ease; /* Add transitions */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.square-7:hover {
+    transform: scale(1.2); /* Enlarge hovered item */
 }
+
+

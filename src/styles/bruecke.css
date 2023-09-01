@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Milchella';
+    src: url('../fonts/Milchella-Regular.ttf');
+  }
+  
+
+.bruecke-container {
+    
+    text-align: center;
+    height: 100vh; /* Use viewport height to ensure the container takes the whole viewport height */
+    width: 100%;
+    background-color: #f55951;
+    overflow: auto;
+}
+
+.Bruecke {
+    /* Add styling for the inner content if needed */
+    overflow: auto;
+}
+
+
+
+.topBarBruecke {
+    width: 100%;
+    height: 10%;
+    background-color: #f55951;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.topBarBruecke img {
+    height: 80%; /* Set the image height to 100% of its parent container's height */
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    width: auto; /* Maintain aspect ratio */
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+
+/* Default styles for larger screens */
+.contentContainerBruecke {
+    display: flex;
+    width: 100%;
+    top: 10%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageAreaBruecke {
+    width: 40%;
+    height: 100%;
+    background-color: #f55951;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contentBruecke {
+    left: 40%;
+    height: 90%;
+    width: 60%;
+    background-color: #f55951;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1vw;
+    padding-bottom: 20px;
+    
+}
+
+/* Media query for screens smaller than a certain width (e.g., mobile) */
+@media (max-width: 900px) {
+    .contentContainerBruecke {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .imageAreaBruecke {
+        width: 100%;
+        height: 20%; /* Adjust height as needed */
+        margin-top: 20%;
+    }
+
+    .contentBruecke {
+        
+        width: 80%;
+        text-align: center;
+
+    }
+
+    /* Set the image width to 30% of the parent container on mobile */
+    .imageAreaBruecke img {
+        width: 30%;
+        max-width: 100%; /* Ensure the image doesn't exceed its original size */
+        height: auto; /* Maintain aspect ratio */
+        
+    }
+}
+
+
+.brueckeTitle {
+    font-family: Milchella;
+    font-size: 5rem;
+    margin: 10px;
+
+}
+
+.brueckeDate {
+    margin-bottom: 10px;
+
+    
+}
+
+.brueckeMainContent {
+
+    font-size: 13pt;
+    text-align: justify;
+    padding-bottom: 30px;
+    
+
+}
